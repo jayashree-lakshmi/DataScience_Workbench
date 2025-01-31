@@ -18,3 +18,10 @@
 
 #### An analysis of Amazon product ratings and a recommendation system. [Read more](Projects/Amazon_product_recommender/README.md)
 
+### 3. Project 3: Depression Detection using NLP [Sentiment Analysis]
+<img src="Images/depression_detection.png" alt="DataScience_Workbench " width="350"> 
+
+#### This project aims to analyze and predict depression using various supervised machine learning models.[Read more](Projects/Tweet_sentiment_analysis/README.md)
+
+
+
