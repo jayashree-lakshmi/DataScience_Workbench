@@ -21,7 +21,12 @@
 ### 3. Project 3: Depression Detection using NLP [Sentiment Analysis]
 <img src="Images/depression_detection.png" alt="DataScience_Workbench " width="350"> 
 
-#### This project aims to analyze and predict depression using various supervised machine learning models.[Read more](Projects/Tweet_sentiment_analysis/README.md)
+#### This project aims to analyze and predict depression using various supervised machine learning models.[Read more](Projects/Tweet_sentiment_analysis_supervisedML/README.md)
+
+### 4. Customer Segmentation based on there purchasing history
+<img src="Images/customer_analysis.png" alt="DataScience_Workbench " width="350"> 
+
+#### Understanding customer behaviors, preferences, and demographics to enhance business strategies and customer experiences.[Read more](Projects/Customer_segmentation_unsupervisedML/README.md)
 
 
 
