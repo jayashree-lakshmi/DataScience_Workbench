@@ -31,4 +31,4 @@
 ### 5. Kids Bed time story generator using LLM
 <img src="Images/kidstory.png" alt="DataScience_Workbench " width="350"> 
 
-#### Generate whimsical, custom bedtime stories for kids using Python, LangChain, and OpenAI’s GPT magic! Just enter a character and setting—like _"Red car in F1 race"_—and the app will produce a personalized tale, extract a moral, and illustrate the scene.
+#### Generate whimsical, custom bedtime stories for kids using Python, LangChain, and OpenAI’s GPT magic! Just enter a character and setting—like _"Red car in F1 race"_—and the app will produce a personalized tale, extract a moral, and illustrate the scene.[Read more](Projects/Kid_story_generator/README.md)
