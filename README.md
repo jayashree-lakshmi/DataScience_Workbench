@@ -5,11 +5,15 @@
 
 
 
+## 🔗 Table of Contents
+- [Recommendation & Personalization Systems](#recommendation--personalization-systems)
+- [NLP & User Behavior Analysis](#nlp--user-behavior-analysis)
+- [Generative AI & LLM Applications](#generative-ai--llm-applications)
 
 # Projects
-
+---
 ## Recommendation & Personalization Systems
-
+---
 ###  Music Recommender System🎵  
 <img src="Images/music_rec.png" alt="DataScience_Workbench " width="350"> 
 
@@ -21,7 +25,9 @@
 
 #### An analysis of Amazon product ratings and a recommendation system. [Read more](Projects/Amazon_product_recommender/README.md)
 
+---
 ## NLP & User Behavior Analysis
+---
 
 ###  Depression Detection using NLP [Sentiment Analysis]
 <img src="Images/depression_detection.png" alt="DataScience_Workbench " width="350"> 
@@ -33,7 +39,9 @@
 
 #### Understanding customer behaviors, preferences, and demographics to enhance business strategies and customer experiences.[Read more](Projects/Customer_segmentation_unsupervisedML/README.md)
 
+---
 ## Generative AI & LLM Applications
+---
 
 ### Kids Bed time story generator using LLM
 <img src="Images/kidstory.png" alt="DataScience_Workbench " width="350"> 
