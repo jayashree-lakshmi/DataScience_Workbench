@@ -18,7 +18,7 @@
 
 | Category | Publication | Summary | Platform |
 | :--- | :--- | :--- | :---: |
-| **🔬 Primary Research** | [**Benchmarking Local SLMs vs. Cloud LLMs for Pedagogical Logic**](Projects/Maths_quiz_generator/Research_Paper.md) | A quantitative study on latency, TTFT, and cost-efficiency in educational AI. | **Technical Paper** |
+| **🔬 Primary Research** | [**Benchmarking Local SLMs vs. Cloud LLMs for Pedagogical Logic**](Projects/Maths_quiz_generator/Research_Paper.md) | A quantitative study on latency, TTFT, and cost-efficiency in educational AI. | [**Medium**](https://medium.com/@jayashree.lakshmi.jay/local-slms-vs-a5bf3b868f6f) |
 | **🛠️ Engineering** | [**Building a Modular AI Story Generator with LangChain**](https://medium.com/@jayashree.lakshmi.jay/building-a-modular-ai-story-generator-with-langchain-a3c5c7c2f936) | Deep-dive into prompt chaining, modular architecture, and creative AI automation. | [**Medium**](https://medium.com/@jayashree.lakshmi.jay/building-a-modular-ai-story-generator-with-langchain-a3c5c7c2f936) |
 | **💡 Philosophy** | [**Generative AI: A Childlike Curiosity Meets Technological Genius**](https://medium.com/@jayashree.lakshmi.jay/generative-ai-a-childlike-curiosity-meets-technological-genius-0e056386958a) | Exploring the intuitive nature of LLMs and how they mirror human learning patterns. | [**Medium**](https://medium.com/@jayashree.lakshmi.jay/generative-ai-a-childlike-curiosity-meets-technological-genius-0e056386958a) |
 
