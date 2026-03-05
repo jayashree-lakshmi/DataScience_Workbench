@@ -6,9 +6,10 @@
 
 
 ## 🔗 Table of Contents
+- [Generative AI & LLM Applications](#generative-ai--llm-applications)
 - [Recommendation & Personalization Systems](#recommendation--personalization-systems)
 - [NLP & User Behavior Analysis](#nlp--user-behavior-analysis)
-- [Generative AI & LLM Applications](#generative-ai--llm-applications)
+
 
 # Projects
 ---
@@ -42,6 +43,12 @@
 ---
 ## Generative AI & LLM Applications
 ---
+### Local SLMs vs. Cloud LLMs: A Quantitative Research on Pedagogical Logic and Operational Cost-Efficiency
+<img src="Images/llm_slm_basic.png" alt="DataScience_Workbench " width="350"> 
+
+#### This research project provides a quantitative framework to evaluate the trade-offs between local execution and cloud-based inference.
+#### By benchmarking performance metrics and pedagogical reasoning, the study identifies where Small Language Models (SLMs) can effectively replace Large Language Models (LLMs) to optimize both privacy and operational costs.
+
 
 ### Kids Bed time story generator using LLM
 <img src="Images/kidstory.png" alt="DataScience_Workbench " width="350"> 
@@ -52,3 +59,4 @@
 <img src="Images/llm_pipeline.png" alt="DataScience_Workbench " width="350">
 
 #### Using Langchain openai, hugging face semantic search embedding, vectordb (FAISS),  Retrieval Chain combines retriever + prompt + LLM. [Read more](Projects/llm_pipeline/README.md)
+
