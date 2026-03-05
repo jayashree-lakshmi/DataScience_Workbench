@@ -30,14 +30,13 @@
 *Advanced RAG pipelines, SLM benchmarking, and creative AI agents.*
 
 
-
-| Project | Preview | Tech Stack | Highlights |
+| Project | Preview | Tech Stack | Highlights | Link |
 | :--- | :---: | :--- | :--- |
-| **Local SLMs vs. Cloud LLMs** | <img src="Images/llm_slm_basic.png" width="200"> | `Ollama`, `Phi-3`, `Streamlit`, `Python` | Quantitative study on cost-efficiency vs. reasoning logic. |
-| **Kids Bedtime Story Gen** | <img src="Images/kidstory.png" width="200"> | `LangChain`, `GPT-4o`, `DALL-E`, `Python` | Custom narrative engine with moral extraction & illustration. |
-| **Curious Kids Q&A Bot** | <img src="Images/llm_pipeline.png" width="200"> | `FAISS`, `HuggingFace`, `VectorDB`, `RAG` | Full RAG pipeline for semantic search and retrieval. |
+| **Local SLMs vs. Cloud LLMs** | <img src="Images/llm_slm_basic.png" width="200"> | `Ollama`, `Phi-3`, `Streamlit`, `Python` | Quantitative study on cost-efficiency vs. reasoning logic.| |[Read more](Projects/GenAI_projects/Maths_quiz_generator/README.md) |
+| **Kids Bedtime Story Gen** | <img src="Images/kidstory.png" width="200"> | `LangChain`, `GPT-4o`, `DALL-E`, `Python` | Custom narrative engine with moral extraction & illustration. | |[Read more](Projects/GenAI_projects/Kid_story_generator/README.md) |
+| **Curious Kids Q&A Bot** | <img src="Images/llm_pipeline.png" width="200"> | `FAISS`, `HuggingFace`, `VectorDB`, `RAG` | Full RAG pipeline for semantic search and retrieval. |[Read more](Projects/GenAI_projects/llm_pipeline/README.md) |
 
-👉 [**Explore GenAI Folder**](Projects/Maths_quiz_generator/README.md)
+👉 [**Explore GenAI Folder**](Projects/GenAI_projects)
 
 ---
 
