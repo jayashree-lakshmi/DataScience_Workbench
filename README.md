@@ -8,7 +8,19 @@
 ---
 
 ## 🛠️ Core Tech Stack
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![Scikit-Learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white) ![LangChain](https://img.shields.io/badge/🦜%20LangChain-000000?style=for-the-badge) ![Ollama](https://img.shields.io/badge/Ollama-white?style=for-the-badge&logo=ollama&logoColor=black)
+
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![SQL](https://img.shields.io/badge/SQL-CC2927?style=for-the-badge&logo=postgresql&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![Scikit-Learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white) ![LangChain](https://img.shields.io/badge/🦜%20LangChain-000000?style=for-the-badge) ![LangGraph](https://img.shields.io/badge/LangGraph-2e3b4e?style=for-the-badge) ![RAG](https://img.shields.io/badge/RAG-Systems-blueviolet?style=for-the-badge) ![Ollama](https://img.shields.io/badge/Ollama-white?style=for-the-badge&logo=ollama&logoColor=black)! ![FAISS](https://img.shields.io/badge/FAISS-Meta-0467DF?style=for-the-badge&logo=meta&logoColor=white)
+
+---
+
+## ✍️ Thought Leadership & Technical Writing
+*Bridging the gap between childlike curiosity and professional AI engineering.*
+
+| Category | Publication | Summary | Platform |
+| :--- | :--- | :--- | :---: |
+| **🔬 Primary Research** | [**Benchmarking Local SLMs vs. Cloud LLMs for Pedagogical Logic**](Projects/Maths_quiz_generator/Research_Paper.md) | A quantitative study on latency, TTFT, and cost-efficiency in educational AI. | **Technical Paper** |
+| **🛠️ Engineering** | [**Building a Modular AI Story Generator with LangChain**](https://medium.com/@jayashree.lakshmi.jay/building-a-modular-ai-story-generator-with-langchain-a3c5c7c2f936) | Deep-dive into prompt chaining, modular architecture, and creative AI automation. | [**Medium**](https://medium.com/@jayashree.lakshmi.jay/building-a-modular-ai-story-generator-with-langchain-a3c5c7c2f936) |
+| **💡 Philosophy** | [**Generative AI: A Childlike Curiosity Meets Technological Genius**](https://medium.com/@jayashree.lakshmi.jay/generative-ai-a-childlike-curiosity-meets-technological-genius-0e056386958a) | Exploring the intuitive nature of LLMs and how they mirror human learning patterns. | [**Medium**](https://medium.com/@jayashree.lakshmi.jay/generative-ai-a-childlike-curiosity-meets-technological-genius-0e056386958a) |
 
 ---
 
@@ -16,6 +28,8 @@
 
 ### 🤖 Generative AI & LLM Applications
 *Advanced RAG pipelines, SLM benchmarking, and creative AI agents.*
+
+
 
 | Project | Preview | Tech Stack | Highlights |
 | :--- | :---: | :--- | :--- |
@@ -29,6 +43,8 @@
 
 ### 🎯 Recommendation & Personalization Systems
 *Building discovery engines through collaborative and content-based filtering.*
+
+
 
 | Project | Preview | Core Algorithm | Link |
 | :--- | :---: | :--- | :--- |
@@ -61,9 +77,7 @@ Understanding customer behaviors, preferences, and demographics to enhance busin
 ---
 
 ## 📈 Featured Research: Local SLM Efficiency
-I am currently investigating the **operational cost-efficiency of Local SLMs**. 
-My latest benchmarks show that for specific pedagogical logic tasks, local 3B parameter models (like Phi-3) can maintain high instruction-following accuracy while reducing long-term API costs by over 90% compared to cloud-scale LLMs.
+
+**Operational cost-efficiency of Local SLMs.** My latest benchmarks show that for specific pedagogical logic tasks, local 3B parameter models (like Phi-3) can maintain high instruction-following accuracy while reducing long-term API costs by over 90% compared to cloud-scale LLMs.
 
 ---
-
-**Would you like me to add a "Connect with Me" section at the bottom with your LinkedIn or Portfolio links?**
