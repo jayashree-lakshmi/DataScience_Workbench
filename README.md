@@ -1,62 +1,69 @@
 # DataScience_Workbench 
-## Welcome to my Data Science Portfolio! 
-### This repository features projects that highlight my skills in data analysis,Python development, machine learning, and statistical modeling. Explore examples of data manipulation, predictive modeling, and insights from complex datasets, along with utilities to streamline daily tasks.
-<img src="Images/Readmefile_cover.png" alt="DataScience_Workbench " width="700">
+## 🚀 Welcome to my Data Science Portfolio! 
 
+### This repository features projects that highlight my skills in data analysis, Python development, machine learning, and statistical modeling. Explore examples of data manipulation, predictive modeling, and insights from complex datasets, along with utilities to streamline daily tasks.
 
-
-## 🔗 Table of Contents
-- [Generative AI & LLM Applications](#generative-ai--llm-applications)
-- [Recommendation & Personalization Systems](#recommendation--personalization-systems)
-- [NLP & User Behavior Analysis](#nlp--user-behavior-analysis)
-
-
-# Projects
----
-## Recommendation & Personalization Systems
----
-###  Music Recommender System🎵  
-<img src="Images/music_rec.png" alt="DataScience_Workbench " width="350"> 
-
-#### A machine learning model that recommends music based on user preferences. [Read more](Projects/Music_recommender/README.md)
-
-
-### Amazon Product Recommender📦
-<img src="Images/amz_prod.png" alt="DataScience_Workbench " width="350">
-
-#### An analysis of Amazon product ratings and a recommendation system. [Read more](Projects/Amazon_product_recommender/README.md)
+<img src="Images/Readmefile_cover.png" alt="DataScience_Workbench" width="100%">
 
 ---
-## NLP & User Behavior Analysis
----
 
-###  Depression Detection using NLP [Sentiment Analysis]
-<img src="Images/depression_detection.png" alt="DataScience_Workbench " width="350"> 
-
-#### This project aims to analyze and predict depression using various supervised machine learning models.[Read more](Projects/Tweet_sentiment_analysis_supervisedML/README.md)
-
-### Customer Segmentation based on there purchasing history
-<img src="Images/customer_analysis.png" alt="DataScience_Workbench " width="350"> 
-
-#### Understanding customer behaviors, preferences, and demographics to enhance business strategies and customer experiences.[Read more](Projects/Customer_segmentation_unsupervisedML/README.md)
+## 🛠️ Core Tech Stack
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![Scikit-Learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white) ![LangChain](https://img.shields.io/badge/🦜%20LangChain-000000?style=for-the-badge) ![Ollama](https://img.shields.io/badge/Ollama-white?style=for-the-badge&logo=ollama&logoColor=black)
 
 ---
-## Generative AI & LLM Applications
+
+## 🏗️ Project Showcase
+
+### 🤖 Generative AI & LLM Applications
+*Advanced RAG pipelines, SLM benchmarking, and creative AI agents.*
+
+| Project | Preview | Tech Stack | Highlights |
+| :--- | :---: | :--- | :--- |
+| **Local SLMs vs. Cloud LLMs** | <img src="Images/llm_slm_basic.png" width="200"> | `Ollama`, `Phi-3`, `Streamlit`, `Python` | Quantitative study on cost-efficiency vs. reasoning logic. |
+| **Kids Bedtime Story Gen** | <img src="Images/kidstory.png" width="200"> | `LangChain`, `GPT-4o`, `DALL-E`, `Python` | Custom narrative engine with moral extraction & illustration. |
+| **Curious Kids Q&A Bot** | <img src="Images/llm_pipeline.png" width="200"> | `FAISS`, `HuggingFace`, `VectorDB`, `RAG` | Full RAG pipeline for semantic search and retrieval. |
+
+👉 [**Explore GenAI Folder**](Projects/Maths_quiz_generator/README.md)
+
 ---
-### Local SLMs vs. Cloud LLMs: A Quantitative Research on Pedagogical Logic and Operational Cost-Efficiency
-<img src="Images/llm_slm_basic.png" alt="DataScience_Workbench " width="350"> 
 
-#### This research project provides a quantitative framework to evaluate the trade-offs between local execution and cloud-based inference.
-#### By benchmarking performance metrics and pedagogical reasoning, the study identifies where Small Language Models (SLMs) can effectively replace Large Language Models (LLMs) to optimize both privacy and operational costs.
+### 🎯 Recommendation & Personalization Systems
+*Building discovery engines through collaborative and content-based filtering.*
 
+| Project | Preview | Core Algorithm | Link |
+| :--- | :---: | :--- | :--- |
+| **Music Recommender System 🎵** | <img src="Images/music_rec.png" width="200"> | Collaborative Filtering / KNN | [Read more](Projects/Music_recommender/README.md) |
+| **Amazon Product Recommender 📦** | <img src="Images/amz_prod.png" width="200"> | Matrix Factorization / SVD | [Read more](Projects/Amazon_product_recommender/README.md) |
 
-### Kids Bed time story generator using LLM
-<img src="Images/kidstory.png" alt="DataScience_Workbench " width="350"> 
+---
 
-#### Generate whimsical, custom bedtime stories for kids using Python, LangChain, and OpenAI’s GPT magic! Just enter a character and setting—like _"Red car in F1 race"_—and the app will produce a personalized tale, extract a moral, and illustrate the scene.[Read more](Projects/Kid_story_generator/README.md)
+### 📊 NLP & User Behavior Analysis
+*Extracting sentiment and segments from unstructured text and transaction data.*
 
-###  LLM pipeline for  Curious Kids Q&A Bot application
-<img src="Images/llm_pipeline.png" alt="DataScience_Workbench " width="350">
+#### 🧠 Depression Detection [Sentiment Analysis]
+<img src="Images/depression_detection.png" align="right" width="250"> 
 
-#### Using Langchain openai, hugging face semantic search embedding, vectordb (FAISS),  Retrieval Chain combines retriever + prompt + LLM. [Read more](Projects/llm_pipeline/README.md)
+Predicting mental health indicators using various supervised machine learning models. 
+- **Models:** Logistic Regression, Random Forest, BERT.
+- **Focus:** Analyzing linguistic patterns for early detection.
+- [Read full report](Projects/Tweet_sentiment_analysis_supervisedML/README.md)
 
+<br clear="right"/>
+
+#### 👥 Customer Segmentation
+<img src="Images/customer_analysis.png" align="left" width="250"> 
+
+Understanding customer behaviors, preferences, and demographics to enhance business strategies.
+- **Method:** Unsupervised ML, K-Means Clustering, RFM Analysis.
+- **Outcome:** Data-driven personas for targeted marketing.
+- [Read full report](Projects/Customer_segmentation_unsupervisedML/README.md)
+
+---
+
+## 📈 Featured Research: Local SLM Efficiency
+I am currently investigating the **operational cost-efficiency of Local SLMs**. 
+My latest benchmarks show that for specific pedagogical logic tasks, local 3B parameter models (like Phi-3) can maintain high instruction-following accuracy while reducing long-term API costs by over 90% compared to cloud-scale LLMs.
+
+---
+
+**Would you like me to add a "Connect with Me" section at the bottom with your LinkedIn or Portfolio links?**
