@@ -27,17 +27,47 @@
 ## 🏗️ Project Showcase
 
 ### 🤖 Generative AI & LLM Applications
-*Advanced RAG pipelines, SLM benchmarking, and creative AI agents.*
+*Advanced RAG pipelines, SLM benchmarking, and stateful AI agents.*
 
+---
 
-| Project | Preview | Tech Stack | Highlights | Link |
-| :--- | :---: | :--- | :--- |
-| **Local SLMs vs. Cloud LLMs** | <img src="Images/llm_slm_basic.png" width="200"> | `Ollama`, `Phi-3`, `Streamlit`, `Python` | Quantitative study on cost-efficiency vs. reasoning logic.| |[Read more](Projects/GenAI_projects/Maths_quiz_generator/README.md) |
-| **Kids Bedtime Story Gen** | <img src="Images/kidstory.png" width="200"> | `LangChain`, `GPT-4o`, `DALL-E`, `Python` | Custom narrative engine with moral extraction & illustration. | |[Read more](Projects/GenAI_projects/Kid_story_generator/README.md) |
-| **Curious Kids Q&A Bot** | <img src="Images/llm_pipeline.png" width="200"> | `FAISS`, `HuggingFace`, `VectorDB`, `RAG` | Full RAG pipeline for semantic search and retrieval. |[Read more](Projects/GenAI_projects/llm_pipeline/README.md) |
+#### 🔬 Local SLMs vs. Cloud LLMs: A Quantitative Study
+<img src="Images/llm_slm_basic.png" align="right" width="300" alt="SLM vs LLM Research">
 
-👉 [**Explore GenAI Folder**](Projects/GenAI_projects)
+A technical research project evaluating the trade-offs between local execution and cloud-based inference.
+- **Tech Stack:** ![Ollama](https://img.shields.io/badge/Ollama-white?style=flat&logo=ollama&logoColor=black) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white)
+- **Key Focus:** Benchmarking **Inference Logic** vs. **Operational Cost-Efficiency**.
+- **Insight:** Developed a framework to quantify "Syntax Hallucination" and latency across different hardware tiers.
+- [**Read Research Paper**](Projects/GenAI_projects/Maths_quiz_generator/README.md)
 
+<br clear="right"/>
+
+#### 📚 Kids Bedtime Story Generator
+<img src="Images/kidstory.png" align="left" width="300" alt="Story Generator">
+
+An interactive storytelling engine that creates personalized narratives and illustrations for children.
+- **Tech Stack:** ![LangChain](https://img.shields.io/badge/🦜_LangChain-black?style=flat) ![OpenAI](https://img.shields.io/badge/GPT--4o-412991?style=flat&logo=openai&logoColor=white) ![DALL-E](https://img.shields.io/badge/DALL--E_3-412991?style=flat&logo=openai&logoColor=white)
+- **Key Focus:** Prompt engineering for moral extraction and creative consistency.
+- **Feature:** Seamlessly integrates character traits and settings into high-quality generated tales.
+- [**Explore Story Generator**](Projects/GenAI_projects/Kid_story_generator/README.md)
+
+<br clear="left"/>
+
+#### 🧠 Curious Kids Q&A Bot (RAG Pipeline)
+<img src="Images/llm_pipeline.png" align="right" width="300" alt="RAG Pipeline">
+
+A robust Knowledge Retrieval system designed to answer complex questions using verified data.
+
+- **Tech Stack:** ![Vector DB](https://img.shields.io/badge/FAISS-0467DF?style=flat&logo=meta&logoColor=white) ![RAG](https://img.shields.io/badge/RAG-Systems-blueviolet?style=flat) ![LangGraph](https://img.shields.io/badge/LangGraph-2e3b4e?style=flat)
+- **Key Focus:** Semantic search and retrieval-augmented generation.
+- **Architecture:** Employs a stateful graph to route queries between local vector stores and structured datasets.
+- [**View RAG Implementation**](Projects/GenAI_projects/llm_pipeline/README.md)
+
+<br clear="right"/>
+
+---
+
+👉 [**Explore Full GenAI Directory**](Projects/GenAI_projects)
 ---
 
 ### 🎯 Recommendation & Personalization Systems
