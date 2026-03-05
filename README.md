@@ -38,7 +38,7 @@ A technical research project evaluating the trade-offs between local execution a
 - **Tech Stack:** ![Ollama](https://img.shields.io/badge/Ollama-white?style=flat&logo=ollama&logoColor=black) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white)
 - **Key Focus:** Benchmarking **Inference Logic** vs. **Operational Cost-Efficiency**.
 - **Insight:** Developed a framework to quantify "Syntax Hallucination" and latency across different hardware tiers.
-- [**Read Research Paper**](Projects/GenAI_projects/Maths_quiz_generator/README.md)
+- [**Research Project**](Projects/GenAI_projects/Maths_quiz_generator/README.md)
 
 <br clear="left"/>
 
