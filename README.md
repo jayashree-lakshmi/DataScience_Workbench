@@ -31,8 +31,8 @@
 
 ---
 
-#### 🔬 Local SLMs vs. Cloud LLMs: A Quantitative Study
-<img src="Images/llm_slm_basic.png" align="right" width="300" alt="SLM vs LLM Research">
+#### Project🔬:  Local SLMs vs. Cloud LLMs: A Quantitative Study
+<img src="Images/llm_slm_basic.png" align="left" width="300" alt="SLM vs LLM Research">
 
 A technical research project evaluating the trade-offs between local execution and cloud-based inference.
 - **Tech Stack:** ![Ollama](https://img.shields.io/badge/Ollama-white?style=flat&logo=ollama&logoColor=black) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white)
@@ -40,9 +40,9 @@ A technical research project evaluating the trade-offs between local execution a
 - **Insight:** Developed a framework to quantify "Syntax Hallucination" and latency across different hardware tiers.
 - [**Read Research Paper**](Projects/GenAI_projects/Maths_quiz_generator/README.md)
 
-<br clear="right"/>
+<br clear="left"/>
 
-#### 📚 Kids Bedtime Story Generator
+#### Project📚: Kids Bedtime Story Generator
 <img src="Images/kidstory.png" align="left" width="300" alt="Story Generator">
 
 An interactive storytelling engine that creates personalized narratives and illustrations for children.
@@ -53,8 +53,8 @@ An interactive storytelling engine that creates personalized narratives and illu
 
 <br clear="left"/>
 
-#### 🧠 Curious Kids Q&A Bot (RAG Pipeline)
-<img src="Images/llm_pipeline.png" align="right" width="300" alt="RAG Pipeline">
+#### Project🧠: Curious Kids Q&A Bot (RAG Pipeline)
+<img src="Images/llm_pipeline.png" align="left" width="300" alt="RAG Pipeline">
 
 A robust Knowledge Retrieval system designed to answer complex questions using verified data.
 
@@ -63,11 +63,9 @@ A robust Knowledge Retrieval system designed to answer complex questions using v
 - **Architecture:** Employs a stateful graph to route queries between local vector stores and structured datasets.
 - [**View RAG Implementation**](Projects/GenAI_projects/llm_pipeline/README.md)
 
-<br clear="right"/>
+<br clear="left"/>
 
 ---
-
-👉 [**Explore Full GenAI Directory**](Projects/GenAI_projects)
 ---
 
 ### 🎯 Recommendation & Personalization Systems
