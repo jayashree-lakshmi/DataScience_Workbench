@@ -1,1 +1,18 @@
 .DS_Store
+__pycache__/
+*.py[cod]
+# Mac system files
+.DS_Store
+
+# Python environment & cache
+__pycache__/
+*.py[cod]
+venv/
+env/
+
+# Sensitive API Keys (CRITICAL)
+.env
+
+# Large Vector DB storage
+*.db
+/chroma_db/
