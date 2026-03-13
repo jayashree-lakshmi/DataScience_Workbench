@@ -34,6 +34,7 @@
 <img src="Images/RAG_pipeline.png" align="left" width="300" alt="RAG Pipeline">
 Built an end-to-end Retrieval Augmented Generation (RAG) system that answers questions from PDF documents using hybrid retrieval (BM25 + vector search) and cross-encoder reranking.
 The pipeline generates grounded answers using Groq-hosted LLMs and automatically attaches source citations with document and page references.
+
 ![Status](https://img.shields.io/badge/status-active_development-orange)
 <br clear="left"/>
 
