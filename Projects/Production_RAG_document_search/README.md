@@ -1,5 +1,5 @@
 # Production RAG Document QA System
-<img src="RAG_pipeline.png"
+<img src="RAG_pipeline.png">
 
 An end-to-end **Retrieval Augmented Generation (RAG)** pipeline that answers questions from documents using hybrid retrieval, reranking, and LLM-based answer generation with source citations.
 

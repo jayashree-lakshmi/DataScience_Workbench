@@ -30,6 +30,11 @@
 *Advanced RAG pipelines, SLM benchmarking, and stateful AI agents.*
 
 ---
+#### Project🔬: Production ready RAG document search with Citation Enforcement
+<img src="Images/RAG_pipeline.png" align="left" width="300" alt="RAG Pipeline">
+Built an end-to-end Retrieval Augmented Generation (RAG) system that answers questions from PDF documents using hybrid retrieval (BM25 + vector search) and cross-encoder reranking.
+The pipeline generates grounded answers using Groq-hosted LLMs and automatically attaches source citations with document and page references.
+<br clear="left"/>
 
 #### Project🔬:  Local SLMs vs. Cloud LLMs: A Quantitative Study
 <img src="Images/llm_slm_basic.png" align="left" width="300" alt="SLM vs LLM Research">
