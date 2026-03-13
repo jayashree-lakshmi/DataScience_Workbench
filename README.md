@@ -36,6 +36,9 @@ Built an end-to-end Retrieval Augmented Generation (RAG) system that answers que
 The pipeline generates grounded answers using Groq-hosted LLMs and automatically attaches source citations with document and page references.
 
 ![Status](https://img.shields.io/badge/status-active_development-orange)
+
+- [**End to End RAG Pipeline**](Projects/GenAI_projects/Production_RAG_document_search/README.md)
+
 <br clear="left"/>
 
 #### Project🔬:  Local SLMs vs. Cloud LLMs: A Quantitative Study
