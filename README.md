@@ -30,14 +30,16 @@
 *Advanced RAG pipelines, SLM benchmarking, and stateful AI agents.*
 
 ---
-#### Project🔬: Production ready RAG document search with Citation Enforcement
-<img src="Images/RAG_pipeline.png" align="left" width="300" alt="RAG Pipeline">
-Built an end-to-end Retrieval Augmented Generation (RAG) system that answers questions from PDF documents using hybrid retrieval (BM25 + vector search) and cross-encoder reranking.
-The pipeline generates grounded answers using Groq-hosted LLMs and automatically attaches source citations with document and page references.
+#### Project🔬: Adaptive Document Intelligence System using Hybrid RAG
+<img src="Images/rag_flowchart.png" align="left" width="300" alt="RAG Pipeline">
 
-![Status](https://img.shields.io/badge/status-active_development-orange)
+Built a production-grade document intelligence system using hybrid retrieval (BM25 + vector search), cross-encoder reranking, and LLM-based answer generation with citations. Implemented adaptive retry logic using LangGraph and integrated both embedding-based and RAGAS-based evaluation to ensure answer faithfulness and relevance.
 
-- [**End to End RAG Pipeline**](Projects/GenAI_projects/Production_RAG_document_search/README.md)
+- **Tech Stack:** ![LangChain](https://img.shields.io/badge/LangChain-LLM_Framework-2E8B57)
+![LangGraph](https://img.shields.io/badge/LangGraph-Orchestration-000000)
+![FastAPI](https://img.shields.io/badge/FastAPI-API-009688?logo=fastapi&logoColor=white)
+
+- [**End to End RAG Pipeline**](Projects/GenAI_projects/RAG_document_intelligence_system/README.md)
 
 <br clear="left"/>
 

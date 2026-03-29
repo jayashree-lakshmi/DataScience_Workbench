@@ -1,6 +1,6 @@
 # 🔍 Adaptive Hybrid RAG Document Intelligence System
 <img src="RAG_pipeline.png">
-<img src="rag_flowchart.png">
+
 A **production-grade Retrieval-Augmented Generation (RAG) system** designed for document question answering with **hybrid retrieval, reranking, evaluation, and adaptive retry mechanisms**.
 
 ---
@@ -104,7 +104,7 @@ Retry (if needed)
    ↓
 Final Answer + Citations
 ```
-
+<img src="rag_flowchart.png">
 ---
 
 ## ⚙️ Tech Stack
