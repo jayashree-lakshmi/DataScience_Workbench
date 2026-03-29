@@ -15,11 +15,22 @@ from dotenv import load_dotenv
 load_dotenv()
 API_KEY = os.getenv('GROQ_API_KEY')
 client = Groq(api_key=API_KEY)
+rerank = CrossEncoder("cross-encoder/ms-marco-MiniLM-L-6-v2")
+
 def load_docs(): #Load Documents
+    """
+    Load document file paths from the data directory.
+
+    Only PDF files are considered.
+
+    Returns:
+        list: List of file paths for PDF documents.
+    """
     folder_path = 'data/raw_docs'
     documents = []
     doc_files = os.listdir(folder_path)
     for file in doc_files:
+        print(file)
         filename = os.path.join(folder_path,file)
         if os.path.exists(filename):
             if file.endswith('.pdf'):
@@ -27,6 +38,20 @@ def load_docs(): #Load Documents
     return documents
 
 def docs_to_text(filepath): # pdf Docs to text converter
+    """
+    Extract text content from a PDF file.
+
+    Converts each page into a structured dictionary containing:
+    - document ID
+    - page number
+    - extracted text
+
+    Args:
+        filepath (str): Path to the PDF file.
+
+    Returns:
+        list: List of page-level dictionaries.
+    """
     with pdfplumber.open(filepath) as fp:
         page_text = []
         for i,pages in enumerate(fp.pages):
@@ -37,8 +62,22 @@ def docs_to_text(filepath): # pdf Docs to text converter
     return page_text
 
 def chunking(page_text): # text to chunks
-    splitter = RecursiveCharacterTextSplitter(chunk_size=500,
-                                              chunk_overlap=50,
+    """
+    Split document text into overlapping chunks.
+
+    Uses RecursiveCharacterTextSplitter to create manageable
+    text segments for embedding and retrieval.
+
+    Each chunk includes metadata for traceability.
+
+    Args:
+        page_text (list): Page-level extracted text.
+
+    Returns:
+        list: List of chunk dictionaries with metadata.
+    """
+    splitter = RecursiveCharacterTextSplitter(chunk_size=chunk_size,
+                                              chunk_overlap=chunk_overlap,
                                               separators=["\n\n", "\n", ".", " ", "","........."])
     
     chunks_data = []
@@ -54,6 +93,17 @@ def chunking(page_text): # text to chunks
     return chunks_data
 
 def embedding(chunk_metadata):
+    """
+    Generate embeddings for all text chunks.
+
+    Uses SentenceTransformer to convert text into vector representations.
+
+    Args:
+        chunk_metadata (list): List of chunk dictionaries.
+
+    Returns:
+        list: Updated chunks with embedding vectors.
+    """
     chunk_text = [ch['chunks'] for ch in chunk_metadata]
     embed_chunktext = encoding_model.encode(chunk_text)
     for chunk, emb in zip(chunk_metadata,embed_chunktext):
@@ -61,6 +111,17 @@ def embedding(chunk_metadata):
     return chunk_metadata
 
 def build_faiss_index(all_chunks):
+    """
+    Build FAISS vector index for semantic search.
+
+    Uses L2 distance for similarity search.
+
+    Args:
+        all_chunks (list): Chunk data with embeddings.
+
+    Returns:
+        faiss.Index: FAISS index object.
+    """
     embeddings = np.array([chunk['embedding'] for chunk in all_chunks]).astype("float32")
     dimension = embeddings.shape[1]
     #embedding to vector database/index
@@ -70,13 +131,34 @@ def build_faiss_index(all_chunks):
     return index
 
 def build_bm25_index(chunks):
-    
+    """
+    Build BM25 keyword-based retrieval index.
+
+    Tokenizes text into lowercase words.
+
+    Args:
+        chunks (list): Chunk data.
+
+    Returns:
+        BM25Okapi: BM25 index object.
+    """
     tokenized_chunks = [ch['chunks'].lower().split() for ch in chunks]
     bm25 = BM25Okapi(tokenized_chunks)
     return bm25
 
 def bm25_search(query, bm25, chunks, top_k=5):
-    
+    """
+    Perform keyword-based search using BM25.
+
+    Args:
+        query (str): Input query.
+        bm25 (BM25Okapi): BM25 index.
+        chunks (list): Chunk data.
+        top_k (int): Number of results.
+
+    Returns:
+        list: Top matching chunks.
+    """
     tokenized_query = query.lower().split()
     scores = bm25.get_scores(tokenized_query)
     top_indices = np.argsort(scores)[::-1][:top_k]
@@ -84,7 +166,18 @@ def bm25_search(query, bm25, chunks, top_k=5):
     return results
 
 def vector_search(query,index,chunks,top_k=5):
-    
+    """
+    Perform semantic search using FAISS vector index.
+
+    Args:
+        query (str): Input query.
+        index (faiss.Index): Vector index.
+        chunks (list): Chunk data.
+        top_k (int): Number of results.
+
+    Returns:
+        list: Top matching chunks.
+    """
     query_embedding = encoding_model.encode([query]).astype("float32")
     distances, indices = index.search(query_embedding, top_k)
     results = []
@@ -93,27 +186,67 @@ def vector_search(query,index,chunks,top_k=5):
     return results
 
 def hybrid_search(query,bm25,index,all_chunks,top_k):
-        combined = {}
-        #Implement Keyword Search : BM25
-        bm25_res = bm25_search(query, bm25, all_chunks, top_k)
-        #Implement Vector search: FAISS
-        vect_res = vector_search(query,index,all_chunks,top_k)
-        for r in bm25_res + vect_res:
-            combined[r["chunk_id"]] = r
-        return list(combined.values())[:top_k]
+    """
+    Combine BM25 and vector search results.
+
+    Merges keyword-based and semantic retrieval outputs,
+    removing duplicates.
+
+    Args:
+        query (str): Input query.
+        bm25 (BM25Okapi): BM25 index.
+        index (faiss.Index): Vector index.
+        all_chunks (list): Chunk data.
+        top_k (int): Number of results.
+
+    Returns:
+        list: Combined top-k results.
+    """
+    combined = {}
+    #Implement Keyword Search : BM25
+    bm25_res = bm25_search(query, bm25, all_chunks, top_k)
+    #Implement Vector search: FAISS
+    vect_res = vector_search(query,index,all_chunks,top_k)
+    for r in bm25_res + vect_res:
+        combined[r["chunk_id"]] = r
+    return list(combined.values())[:top_k]
 
 def reranker(query,retrieved_chunks,top_k):
-    reranker = CrossEncoder("cross-encoder/ms-marco-MiniLM-L-6-v2")
+    """
+    Re-rank retrieved chunks using cross-encoder model.
+
+    Improves relevance by scoring query-document pairs.
+
+    Args:
+        query (str): Input query.
+        retrieved_chunks (list): Retrieved chunks.
+        top_k (int): Number of final results.
+
+    Returns:
+        list: Top reranked chunks.
+    """
     pairs = [(query,chu['chunks']) for chu in retrieved_chunks]
-    scores = reranker.predict(pairs)
+    scores = rerank.predict(pairs)
     for chunk,score in zip(retrieved_chunks,scores):
         chunk['rerank_score'] = score
     reranked = sorted(retrieved_chunks,key=lambda x:x['rerank_score'],reverse=True)
     return reranked[:top_k]
 
 def generate_answer(query, ranking_results):
+    """
+    Generate answer using LLM based on retrieved context.
+
+    Concatenates top chunks and sends prompt to LLM.
+
+    Args:
+        query (str): User query.
+        ranking_results (list): Top-ranked chunks.
+
+    Returns:
+        str: Generated answer.
+    """
+
     context=""
-   
     for res in ranking_results:
         context += res['chunks']
     prompt = f"""
@@ -134,6 +267,18 @@ def generate_answer(query, ranking_results):
     return answer
 
 def attach_citations(answer, chunks):
+    """
+    Attach source citations to the generated answer.
+
+    Uses top chunks to construct references.
+
+    Args:
+        answer (str): Generated answer.
+        chunks (list): Retrieved chunks.
+
+    Returns:
+        str: Answer with citations appended.
+    """
     citations = []
     for chunk in chunks[:2]:
         citation = f"{chunk['doc_id']} page {chunk['page']}"
@@ -149,13 +294,36 @@ def attach_citations(answer, chunks):
     return final_answer
 
 def answer_with_citations(query, reranked_chunks):
+    """
+    Generate final answer with citations.
+
+    Combines LLM output and source attribution.
+
+    Args:
+        query (str): User query.
+        reranked_chunks (list): Top-ranked chunks.
+
+    Returns:
+        str: Final answer with citations.
+    """
     answer = generate_answer(query, reranked_chunks)
     final_answer = attach_citations(answer, reranked_chunks)
     return final_answer
 
 def llm(prompt):
+    """
+    Call Groq LLM API to generate response.
+
+    Uses LLaMA-based model for text generation.
+
+    Args:
+        prompt (str): Input prompt.
+
+    Returns:
+        str: Generated response text.
+    """
     response = client.chat.completions.create(
-        model="meta-llama/llama-4-scout-17b-16e-instruct",
+        model="meta-llama/llama-4-scout-17b-16e-instruct",#llama-4-scout-17b-16e-instruct",
         messages=[
             {"role": "user", "content": prompt}
         ],
@@ -163,8 +331,24 @@ def llm(prompt):
     )
     return response.choices[0].message.content
 
-def main():
-    top_k=10
+def prepare_pipeline():
+    """
+    End-to-end pipeline preparation.
+
+    Steps:
+    1. Load documents
+    2. Extract text
+    3. Chunk text
+    4. Generate embeddings
+    5. Build FAISS index
+    6. Build BM25 index
+
+    Returns:
+        tuple:
+            - all_chunks (list)
+            - index (faiss.Index)
+            - bm25 (BM25Okapi)
+    """
     all_chunks = []
     #Load Documents
     doc_list = load_docs()
@@ -182,9 +366,13 @@ def main():
     index = build_faiss_index(all_chunks)
     print("Total chunks indexed:", len(all_chunks))
     #Implement Keyword Search : BM25 index
-    query = "What are the Non-Marketable Investments"
     bm25 = build_bm25_index(all_chunks)
     print("\nTop Results:\n")
+    return all_chunks, index, bm25
+
+def main(query):
+    top_k=10
+    all_chunks, index, bm25 = prepare_pipeline()
     hybrid_results=hybrid_search(query,bm25,index,all_chunks,top_k)
     print("\nTop Results:\n")
     for r in hybrid_results:
@@ -197,6 +385,7 @@ def main():
     print(final_answer)
     
 if __name__ == '__main__':
-    main()
+    query = "What are the Non-Marketable Investments"
+    main(query)
 
-        
+#python -m uvicorn docsearch_app:app --reload

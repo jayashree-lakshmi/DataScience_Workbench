@@ -1,0 +1,702 @@
+[
+  {
+    "question": "Where are expected credit losses recorded?",
+    "answer": "Other income (expense), net",
+    "doc_id": "Amazon-2024-Annual-Report.pdf",
+    "page": 60,
+    "chunk_id": "Amazon-2024-Annual-Report.pdf_60_5"
+  },
+  {
+    "question": "What was the ranking of the company's website according to MediaMetrix?",
+    "answer": "90th to within the top 20.",
+    "doc_id": "Amazon-2024-Annual-Report.pdf",
+    "page": 11,
+    "chunk_id": "Amazon-2024-Annual-Report.pdf_11_4"
+  },
+  {
+    "question": "What is the estimated increase in 2025 operating income?",
+    "answer": "$0.9 billion",
+    "doc_id": "Amazon-2024-Annual-Report.pdf",
+    "page": 53,
+    "chunk_id": "Amazon-2024-Annual-Report.pdf_53_5"
+  },
+  {
+    "question": "What is the par value of the shares of common stock?",
+    "answer": "$0.01 per share",
+    "doc_id": "Amazon-2024-Annual-Report.pdf",
+    "page": 53,
+    "chunk_id": "Amazon-2024-Annual-Report.pdf_53_2"
+  },
+  {
+    "question": "What could negatively impact China-based sellers and suppliers?",
+    "answer": "Adversely affect our operating results.",
+    "doc_id": "Amazon-2024-Annual-Report.pdf",
+    "page": 20,
+    "chunk_id": "Amazon-2024-Annual-Report.pdf_20_2"
+  },
+  {
+    "question": "What costs necessary to run are included in variable costs?",
+    "answer": "AWS",
+    "doc_id": "Amazon-2024-Annual-Report.pdf",
+    "page": 32,
+    "chunk_id": "Amazon-2024-Annual-Report.pdf_32_6"
+  },
+  {
+    "question": "What reduced sales and marketing costs by $263 million in 2024?",
+    "answer": "Changes in foreign exchange rates.",
+    "doc_id": "Amazon-2024-Annual-Report.pdf",
+    "page": 38,
+    "chunk_id": "Amazon-2024-Annual-Report.pdf_38_7"
+  },
+  {
+    "question": "What are inventories valued at?",
+    "answer": "the lower of cost and net realizable value",
+    "doc_id": "Amazon-2024-Annual-Report.pdf",
+    "page": 33,
+    "chunk_id": "Amazon-2024-Annual-Report.pdf_33_8"
+  },
+  {
+    "question": "**** What are the primary assets that make up AWS segment assets?",
+    "answer": "**** Property and equipment, accounts receivable, and operating leases.",
+    "doc_id": "Amazon-2024-Annual-Report.pdf",
+    "page": 80,
+    "chunk_id": "Amazon-2024-Annual-Report.pdf_80_1"
+  },
+  {
+    "question": "When do our cash, cash equivalents, and marketable securities balances typically reach their highest level?",
+    "answer": "December 31 of each year.",
+    "doc_id": "Amazon-2024-Annual-Report.pdf",
+    "page": 20,
+    "chunk_id": "Amazon-2024-Annual-Report.pdf_20_5"
+  },
+  {
+    "question": "Who is the Founder and Chief Executive Officer of Amazon.com, Inc.?",
+    "answer": "Jeffrey P. Bezos",
+    "doc_id": "Amazon-2024-Annual-Report.pdf",
+    "page": 12,
+    "chunk_id": "Amazon-2024-Annual-Report.pdf_12_4"
+  },
+  {
+    "question": "What was reclassified as of December 31, 2024?",
+    "answer": "a significant portion of the unrealized gain associated with the notes",
+    "doc_id": "Amazon-2024-Annual-Report.pdf",
+    "page": 60,
+    "chunk_id": "Amazon-2024-Annual-Report.pdf_60_8"
+  },
+  {
+    "question": "What is the state or other jurisdiction of incorporation or organization of Amazon.com, Inc.?",
+    "answer": "Delaware",
+    "doc_id": "Amazon-2024-Annual-Report.pdf",
+    "page": 13,
+    "chunk_id": "Amazon-2024-Annual-Report.pdf_13_0"
+  },
+  {
+    "question": "Where is information required by Item 12 of Part III included?",
+    "answer": "In our Proxy Statement relating to our 2025 Annual Meeting of Shareholders.",
+    "doc_id": "Amazon-2024-Annual-Report.pdf",
+    "page": 84,
+    "chunk_id": "Amazon-2024-Annual-Report.pdf_84_4"
+  },
+  {
+    "question": "What could affect our effective tax rates?",
+    "answer": "numerous factors, such as changes in our business operations, acquisitions, investments, entry into new businesses and geographies, intercompany transactions, the relative amount of our foreign earnings...",
+    "doc_id": "Amazon-2024-Annual-Report.pdf",
+    "page": 34,
+    "chunk_id": "Amazon-2024-Annual-Report.pdf_34_2"
+  },
+  {
+    "question": "What type of opinion should not be provided on the critical audit matter or on the accounts or disclosures to which it relates?",
+    "answer": "a separate opinion",
+    "doc_id": "Amazon-2024-Annual-Report.pdf",
+    "page": 46,
+    "chunk_id": "Amazon-2024-Annual-Report.pdf_46_5"
+  },
+  {
+    "question": "What is the date of the report that expressed an unqualified opinion on the company's financial statements?",
+    "answer": "February 6, 2025.",
+    "doc_id": "Amazon-2024-Annual-Report.pdf",
+    "page": 83,
+    "chunk_id": "Amazon-2024-Annual-Report.pdf_83_1"
+  },
+  {
+    "question": "How are advertising and other promotional costs to market products and services accounted for?",
+    "answer": "expensed as incurred.",
+    "doc_id": "Amazon-2024-Annual-Report.pdf",
+    "page": 56,
+    "chunk_id": "Amazon-2024-Annual-Report.pdf_56_3"
+  },
+  {
+    "question": "What may result in increased claims of infringement or other claims?",
+    "answer": "development and use of artificial intelligence",
+    "doc_id": "Amazon-2024-Annual-Report.pdf",
+    "page": 21,
+    "chunk_id": "Amazon-2024-Annual-Report.pdf_21_2"
+  },
+  {
+    "question": "How many years has the speaker been working at Amazon?",
+    "answer": "almost 28 years.",
+    "doc_id": "Amazon-2024-Annual-Report.pdf",
+    "page": 8,
+    "chunk_id": "Amazon-2024-Annual-Report.pdf_8_3"
+  },
+  {
+    "question": "What is the due year of the 4.100% Note?",
+    "answer": "2062",
+    "doc_id": "Amazon-2024-Annual-Report.pdf",
+    "page": 86,
+    "chunk_id": "Amazon-2024-Annual-Report.pdf_86_3"
+  },
+  {
+    "question": "What is Item 14 about?",
+    "answer": "Principal Accountant Fees and Services.",
+    "doc_id": "Amazon-2024-Annual-Report.pdf",
+    "page": 14,
+    "chunk_id": "Amazon-2024-Annual-Report.pdf_14_1"
+  },
+  {
+    "question": "What was the fair value of the equity investment in Rivian as of December 31, 2023?",
+    "answer": "$3.7 billion",
+    "doc_id": "Amazon-2024-Annual-Report.pdf",
+    "page": 57,
+    "chunk_id": "Amazon-2024-Annual-Report.pdf_57_2"
+  },
+  {
+    "question": "When will a portion of the foreign net operating loss carryforwards begin to expire if not utilized?",
+    "answer": "2025.",
+    "doc_id": "Amazon-2024-Annual-Report.pdf",
+    "page": 76,
+    "chunk_id": "Amazon-2024-Annual-Report.pdf_76_2"
+  },
+  {
+    "question": "What is Other operating expense (income), net, primarily composed of?",
+    "answer": "amortization of intangible assets and asset impairments.",
+    "doc_id": "Amazon-2024-Annual-Report.pdf",
+    "page": 56,
+    "chunk_id": "Amazon-2024-Annual-Report.pdf_56_5"
+  },
+  {
+    "question": "What type of retailers are our competitors?",
+    "answer": "physical, e-commerce, and omnichannel retailers.",
+    "doc_id": "Amazon-2024-Annual-Report.pdf",
+    "page": 16,
+    "chunk_id": "Amazon-2024-Annual-Report.pdf_16_0"
+  },
+  {
+    "question": "What do the costs reflect that the company invests in?",
+    "answer": "investments we make in order to offer a wide variety of products and services to our customers",
+    "doc_id": "Amazon-2024-Annual-Report.pdf",
+    "page": 38,
+    "chunk_id": "Amazon-2024-Annual-Report.pdf_38_3"
+  },
+  {
+    "question": "What was the range of damages that Broadband iTV alleged Amazon could be subject to in the event of a finding of liability?",
+    "answer": "$166 million to $986 million.",
+    "doc_id": "Amazon-2024-Annual-Report.pdf",
+    "page": 72,
+    "chunk_id": "Amazon-2024-Annual-Report.pdf_72_3"
+  },
+  {
+    "question": "**** What percentage of the grant date fair value is recognized as expense in the first year of grant for the majority of stock-based compensation awards?",
+    "answer": "**** approximately 50%",
+    "doc_id": "Amazon-2024-Annual-Report.pdf",
+    "page": 56,
+    "chunk_id": "Amazon-2024-Annual-Report.pdf_56_4"
+  },
+  {
+    "question": "Who is the President and Chief Executive Officer of Amazon.com, Inc.?",
+    "answer": "Andrew R. Jassy.",
+    "doc_id": "Amazon-2024-Annual-Report.pdf",
+    "page": 87,
+    "chunk_id": "Amazon-2024-Annual-Report.pdf_87_4"
+  },
+  {
+    "question": "What could be the result of violating government contracts and related procurement regulations?",
+    "answer": "Various civil and criminal penalties and administrative sanctions, including termination of contract, refunding or suspending of payments, forfeiture of profits.",
+    "doc_id": "Amazon-2024-Annual-Report.pdf",
+    "page": 28,
+    "chunk_id": "Amazon-2024-Annual-Report.pdf_28_7"
+  },
+  {
+    "question": "What was the depreciation and amortization expense for the North America segment in 2022?",
+    "answer": "$11,565",
+    "doc_id": "Amazon-2024-Annual-Report.pdf",
+    "page": 81,
+    "chunk_id": "Amazon-2024-Annual-Report.pdf_81_0"
+  },
+  {
+    "question": "What was the amount as of December 31, 2022?",
+    "answer": "$87.2 billion",
+    "doc_id": "Amazon-2024-Annual-Report.pdf",
+    "page": 80,
+    "chunk_id": "Amazon-2024-Annual-Report.pdf_80_4"
+  },
+  {
+    "question": "What type of filer is the registrant?",
+    "answer": "Large accelerated filer.",
+    "doc_id": "Amazon-2024-Annual-Report.pdf",
+    "page": 13,
+    "chunk_id": "Amazon-2024-Annual-Report.pdf_13_3"
+  },
+  {
+    "question": "How many shares of $0.01 par value preferred stock are authorized?",
+    "answer": "500 million",
+    "doc_id": "Amazon-2024-Annual-Report.pdf",
+    "page": 73,
+    "chunk_id": "Amazon-2024-Annual-Report.pdf_73_0"
+  },
+  {
+    "question": "When are impairment losses recorded for long-lived assets used in operations?",
+    "answer": "When the asset\u2019s carrying amount is not recoverable through its undiscounted, probability-weighted future cash flows.",
+    "doc_id": "Amazon-2024-Annual-Report.pdf",
+    "page": 61,
+    "chunk_id": "Amazon-2024-Annual-Report.pdf_61_4"
+  },
+  {
+    "question": "Where are translation adjustments included?",
+    "answer": "Accumulated other comprehensive income (loss)",
+    "doc_id": "Amazon-2024-Annual-Report.pdf",
+    "page": 62,
+    "chunk_id": "Amazon-2024-Annual-Report.pdf_62_3"
+  },
+  {
+    "question": "What type of assets are included in \"Other assets\" on the consolidated balance sheets?",
+    "answer": "Video and music content, long-term deferred tax assets, acquired intangible assets, convertible notes, equity investments, satellite network launch services deposits, and affordable housing loans.",
+    "doc_id": "Amazon-2024-Annual-Report.pdf",
+    "page": 60,
+    "chunk_id": "Amazon-2024-Annual-Report.pdf_60_0"
+  },
+  {
+    "question": "Where is information regarding our Executive Officers required by Item 10 of Part III set forth?",
+    "answer": "Item 1 of Part I \u201cBusiness \u2014 Information About Our Executive Officers.\u201d",
+    "doc_id": "Amazon-2024-Annual-Report.pdf",
+    "page": 84,
+    "chunk_id": "Amazon-2024-Annual-Report.pdf_84_2"
+  },
+  {
+    "question": "What type of fees do we pay for certain payment methods, including credit and debit cards?",
+    "answer": "Interchange and other fees.",
+    "doc_id": "Amazon-2024-Annual-Report.pdf",
+    "page": 26,
+    "chunk_id": "Amazon-2024-Annual-Report.pdf_26_0"
+  },
+  {
+    "question": "What was the net income in 2022?",
+    "answer": "$ (2,722)",
+    "doc_id": "Amazon-2024-Annual-Report.pdf",
+    "page": 49,
+    "chunk_id": "Amazon-2024-Annual-Report.pdf_49_1"
+  },
+  {
+    "question": "What was the interest rate of the borrowings outstanding under the Credit Facility as of December 31, 2023?",
+    "answer": "Not specified, however,  the Credit Facility bore interest based on the daily Secured Overnight Financing Rate plus 1.25%.",
+    "doc_id": "Amazon-2024-Annual-Report.pdf",
+    "page": 69,
+    "chunk_id": "Amazon-2024-Annual-Report.pdf_69_2"
+  },
+  {
+    "question": "How many shares of Amazon.com, Inc. common stock did Douglas Herrington plan to sell as of November 7, 2024?",
+    "answer": "up to 158,970 shares.",
+    "doc_id": "Amazon-2024-Annual-Report.pdf",
+    "page": 84,
+    "chunk_id": "Amazon-2024-Annual-Report.pdf_84_0"
+  },
+  {
+    "question": "What was the income taxes computed at the federal statutory rate in 2024?",
+    "answer": "$14,409",
+    "doc_id": "Amazon-2024-Annual-Report.pdf",
+    "page": 75,
+    "chunk_id": "Amazon-2024-Annual-Report.pdf_75_1"
+  },
+  {
+    "question": "**** What does GAAP require in terms of estimates and assumptions?",
+    "answer": "**** Estimates and assumptions that affect the reported amounts of assets and liabilities, revenues and expenses.",
+    "doc_id": "Amazon-2024-Annual-Report.pdf",
+    "page": 33,
+    "chunk_id": "Amazon-2024-Annual-Report.pdf_33_6"
+  },
+  {
+    "question": "What was the cash capital expenditure in 2023?",
+    "answer": "$48.1 billion",
+    "doc_id": "Amazon-2024-Annual-Report.pdf",
+    "page": 35,
+    "chunk_id": "Amazon-2024-Annual-Report.pdf_35_0"
+  },
+  {
+    "question": "What is listed under Item 16?",
+    "answer": "Form 10-K Summary None.",
+    "doc_id": "Amazon-2024-Annual-Report.pdf",
+    "page": 88,
+    "chunk_id": "Amazon-2024-Annual-Report.pdf_88_2"
+  },
+  {
+    "question": "What is the method used to record cash equivalents and marketable securities?",
+    "answer": "Fair value.",
+    "doc_id": "Amazon-2024-Annual-Report.pdf",
+    "page": 63,
+    "chunk_id": "Amazon-2024-Annual-Report.pdf_63_0"
+  },
+  {
+    "question": "How will employee compensation be weighted?",
+    "answer": "Stock options rather than cash.",
+    "doc_id": "Amazon-2024-Annual-Report.pdf",
+    "page": 11,
+    "chunk_id": "Amazon-2024-Annual-Report.pdf_11_1"
+  },
+  {
+    "question": "How is revenue measured?",
+    "answer": "Based on the amount of consideration that we expect to receive, reduced by estimates for return allowances, promotional discounts, and rebates.",
+    "doc_id": "Amazon-2024-Annual-Report.pdf",
+    "page": 55,
+    "chunk_id": "Amazon-2024-Annual-Report.pdf_55_0"
+  },
+  {
+    "question": "What are some limitations that may affect the company's operations?",
+    "answer": "Limited fulfillment and technology infrastructure.",
+    "doc_id": "Amazon-2024-Annual-Report.pdf",
+    "page": 19,
+    "chunk_id": "Amazon-2024-Annual-Report.pdf_19_2"
+  },
+  {
+    "question": "How much were borrowings outstanding under short-term credit facilities as of December 31, 2024?",
+    "answer": "$151 million",
+    "doc_id": "Amazon-2024-Annual-Report.pdf",
+    "page": 70,
+    "chunk_id": "Amazon-2024-Annual-Report.pdf_70_2"
+  },
+  {
+    "question": "What is the net increase in cash, cash equivalents, and restricted cash for the period?",
+    "answer": "17,776",
+    "doc_id": "Amazon-2024-Annual-Report.pdf",
+    "page": 48,
+    "chunk_id": "Amazon-2024-Annual-Report.pdf_48_3"
+  },
+  {
+    "question": "What is the par value of Amazon's Common Stock?",
+    "answer": "$.01 per share",
+    "doc_id": "Amazon-2024-Annual-Report.pdf",
+    "page": 13,
+    "chunk_id": "Amazon-2024-Annual-Report.pdf_13_1"
+  },
+  {
+    "question": "What may happen to the Chinese and Indian businesses and operations if they are unable to access sufficient funding?",
+    "answer": "They may be unable to continue to operate.",
+    "doc_id": "Amazon-2024-Annual-Report.pdf",
+    "page": 20,
+    "chunk_id": "Amazon-2024-Annual-Report.pdf_20_0"
+  },
+  {
+    "question": "**** What can any of these types of proceedings (e.g. price fixing, monopolization, consumer protection claims) have an adverse effect on a company?",
+    "answer": "**** legal costs, disruption of our operations, diversion of management resources, negative publicity, and other factors.",
+    "doc_id": "Amazon-2024-Annual-Report.pdf",
+    "page": 27,
+    "chunk_id": "Amazon-2024-Annual-Report.pdf_27_6"
+  },
+  {
+    "question": "What was the accumulated amortization associated with finance leases as of December 31, 2023?",
+    "answer": "$44.7 billion",
+    "doc_id": "Amazon-2024-Annual-Report.pdf",
+    "page": 66,
+    "chunk_id": "Amazon-2024-Annual-Report.pdf_66_0"
+  },
+  {
+    "question": "What may significantly impact the company's reported results and consolidated trends and comparisons?",
+    "answer": "Currency volatilities.",
+    "doc_id": "Amazon-2024-Annual-Report.pdf",
+    "page": 33,
+    "chunk_id": "Amazon-2024-Annual-Report.pdf_33_4"
+  },
+  {
+    "question": "What are the primary drivers of free cash flows?",
+    "answer": "Increasing operating income and efficiently managing accounts receivable, inventory, accounts payable, and cash capital expenditures.",
+    "doc_id": "Amazon-2024-Annual-Report.pdf",
+    "page": 32,
+    "chunk_id": "Amazon-2024-Annual-Report.pdf_32_4"
+  },
+  {
+    "question": "What kind of company does Amazon aim to be?",
+    "answer": "Earth's most customer-centric company.",
+    "doc_id": "Amazon-2024-Annual-Report.pdf",
+    "page": 53,
+    "chunk_id": "Amazon-2024-Annual-Report.pdf_53_0"
+  },
+  {
+    "question": "What will the company prioritize when choosing between optimizing GAAP accounting and maximizing future cash flows?",
+    "answer": "The present value of future cash flows.",
+    "doc_id": "Amazon-2024-Annual-Report.pdf",
+    "page": 11,
+    "chunk_id": "Amazon-2024-Annual-Report.pdf_11_0"
+  },
+  {
+    "question": "What is the weighted average remaining life of our long-term contracts?",
+    "answer": "4.1 years.",
+    "doc_id": "Amazon-2024-Annual-Report.pdf",
+    "page": 62,
+    "chunk_id": "Amazon-2024-Annual-Report.pdf_62_2"
+  },
+  {
+    "question": "What does Amazon's invention process start with?",
+    "answer": "A seed of an idea.",
+    "doc_id": "Amazon-2024-Annual-Report.pdf",
+    "page": 5,
+    "chunk_id": "Amazon-2024-Annual-Report.pdf_5_1"
+  },
+  {
+    "question": "What are some factors that may affect the prices of products like paper and packing supplies?",
+    "answer": "Availability of and increases in the prices of resources and commodities.",
+    "doc_id": "Amazon-2024-Annual-Report.pdf",
+    "page": 22,
+    "chunk_id": "Amazon-2024-Annual-Report.pdf_22_2"
+  },
+  {
+    "question": "How much were cash paid for U.S. and foreign income taxes in 2023?",
+    "answer": "$11.2 billion.",
+    "doc_id": "Amazon-2024-Annual-Report.pdf",
+    "page": 35,
+    "chunk_id": "Amazon-2024-Annual-Report.pdf_35_4"
+  },
+  {
+    "question": "What was the amortization expense for acquired finite-lived intangibles in 2022?",
+    "answer": "$604 million",
+    "doc_id": "Amazon-2024-Annual-Report.pdf",
+    "page": 68,
+    "chunk_id": "Amazon-2024-Annual-Report.pdf_68_2"
+  },
+  {
+    "question": "What type of interest does Amazon hold in an entity that is a third-party seller on the www.amazon.in marketplace?",
+    "answer": "An indirect minority interest.",
+    "doc_id": "Amazon-2024-Annual-Report.pdf",
+    "page": 19,
+    "chunk_id": "Amazon-2024-Annual-Report.pdf_19_6"
+  },
+  {
+    "question": "What is the primary reason for the valuation allowances?",
+    "answer": "Relates primarily to deferred tax assets that would only be realizable upon the generation of net income in certain foreign taxing jurisdictions or future capital gains, as well as tax credits.",
+    "doc_id": "Amazon-2024-Annual-Report.pdf",
+    "page": 76,
+    "chunk_id": "Amazon-2024-Annual-Report.pdf_76_1"
+  },
+  {
+    "question": "What could harm our business or damage our reputation?",
+    "answer": "Unsuccessful sustainability initiatives.",
+    "doc_id": "Amazon-2024-Annual-Report.pdf",
+    "page": 19,
+    "chunk_id": "Amazon-2024-Annual-Report.pdf_19_0"
+  },
+  {
+    "question": "What is Amazon facing investigations under, related to data?",
+    "answer": "a growing patchwork of laws and regulations governing the collection, use, and disclosure of data.",
+    "doc_id": "Amazon-2024-Annual-Report.pdf",
+    "page": 27,
+    "chunk_id": "Amazon-2024-Annual-Report.pdf_27_2"
+  },
+  {
+    "question": "What was the interest expense in 2023?",
+    "answer": "$3.2 billion",
+    "doc_id": "Amazon-2024-Annual-Report.pdf",
+    "page": 39,
+    "chunk_id": "Amazon-2024-Annual-Report.pdf_39_4"
+  },
+  {
+    "question": "Has the registrant submitted electronically every Interactive Data File required to be submitted pursuant to Rule 405 of Regulation S-T during the preceding 12 months?",
+    "answer": "Yes",
+    "doc_id": "Amazon-2024-Annual-Report.pdf",
+    "page": 13,
+    "chunk_id": "Amazon-2024-Annual-Report.pdf_13_2"
+  },
+  {
+    "question": "Can you book 60 minutes to invent Amazon Prime?",
+    "answer": "No",
+    "doc_id": "Amazon-2024-Annual-Report.pdf",
+    "page": 5,
+    "chunk_id": "Amazon-2024-Annual-Report.pdf_5_2"
+  },
+  {
+    "question": "What is the weighted average remaining life of the company's capitalized video content?",
+    "answer": "3.1 years.",
+    "doc_id": "Amazon-2024-Annual-Report.pdf",
+    "page": 60,
+    "chunk_id": "Amazon-2024-Annual-Report.pdf_60_2"
+  },
+  {
+    "question": "**** How does Amazon typically operate when it comes to invention?",
+    "answer": "**** Deeply collaborative.",
+    "doc_id": "Amazon-2024-Annual-Report.pdf",
+    "page": 5,
+    "chunk_id": "Amazon-2024-Annual-Report.pdf_5_0"
+  },
+  {
+    "question": "What is required to protect our intellectual property?",
+    "answer": "Significant financial and managerial resources.",
+    "doc_id": "Amazon-2024-Annual-Report.pdf",
+    "page": 21,
+    "chunk_id": "Amazon-2024-Annual-Report.pdf_21_0"
+  },
+  {
+    "question": "What was the net income for the year ending December 31, 2024?",
+    "answer": "59,248",
+    "doc_id": "Amazon-2024-Annual-Report.pdf",
+    "page": 52,
+    "chunk_id": "Amazon-2024-Annual-Report.pdf_52_1"
+  },
+  {
+    "question": "**** What was the cash provided by operating activities in 2024?",
+    "answer": "**** $115.9 billion",
+    "doc_id": "Amazon-2024-Annual-Report.pdf",
+    "page": 34,
+    "chunk_id": "Amazon-2024-Annual-Report.pdf_34_5"
+  },
+  {
+    "question": "What type of retail and services does the company provide to businesses?",
+    "answer": "physical, e-commerce, and omnichannel retail, cloud services, and other services.",
+    "doc_id": "Amazon-2024-Annual-Report.pdf",
+    "page": 24,
+    "chunk_id": "Amazon-2024-Annual-Report.pdf_24_4"
+  },
+  {
+    "question": "What is the opinion of the Independent Registered Public Accounting Firm on the financial statements of Amazon.com, Inc.?",
+    "answer": "The consolidated financial statements present fairly, in all material respects, the financial position of the Company.",
+    "doc_id": "Amazon-2024-Annual-Report.pdf",
+    "page": 46,
+    "chunk_id": "Amazon-2024-Annual-Report.pdf_46_0"
+  },
+  {
+    "question": "What type of products do we carry a broad selection and significant inventory levels of?",
+    "answer": "consumer electronics",
+    "doc_id": "Amazon-2024-Annual-Report.pdf",
+    "page": 25,
+    "chunk_id": "Amazon-2024-Annual-Report.pdf_25_6"
+  },
+  {
+    "question": "Why does the company expect variability in inventory turnover over time?",
+    "answer": "Numerous factors, including product mix, sales by third-party sellers, in-stock inventory availability, supply chain disruptions, and investment in new geographies and product lines.",
+    "doc_id": "Amazon-2024-Annual-Report.pdf",
+    "page": 32,
+    "chunk_id": "Amazon-2024-Annual-Report.pdf_32_8"
+  },
+  {
+    "question": "How many segments have the company's operations been organized into?",
+    "answer": "Three.",
+    "doc_id": "Amazon-2024-Annual-Report.pdf",
+    "page": 77,
+    "chunk_id": "Amazon-2024-Annual-Report.pdf_77_5"
+  },
+  {
+    "question": "When did Brian T. Olsavsky become Senior Vice President and Chief Financial Officer?",
+    "answer": "June 2015.",
+    "doc_id": "Amazon-2024-Annual-Report.pdf",
+    "page": 17,
+    "chunk_id": "Amazon-2024-Annual-Report.pdf_17_3"
+  },
+  {
+    "question": "**** What type of risk do we have due to international stores and product offerings?",
+    "answer": "**** Foreign Exchange Risk",
+    "doc_id": "Amazon-2024-Annual-Report.pdf",
+    "page": 21,
+    "chunk_id": "Amazon-2024-Annual-Report.pdf_21_3"
+  },
+  {
+    "question": "What are some of the areas that existing laws governing issues such as property ownership, libel, and consumer protection may apply to?",
+    "answer": "aspects of our services.",
+    "doc_id": "Amazon-2024-Annual-Report.pdf",
+    "page": 27,
+    "chunk_id": "Amazon-2024-Annual-Report.pdf_27_0"
+  },
+  {
+    "question": "How are incentives received from property and equipment vendors recorded?",
+    "answer": "As a reduction to our costs.",
+    "doc_id": "Amazon-2024-Annual-Report.pdf",
+    "page": 58,
+    "chunk_id": "Amazon-2024-Annual-Report.pdf_58_6"
+  },
+  {
+    "question": "When did David Zapolsky adopt a trading plan to sell Amazon shares?",
+    "answer": "November 12, 2024.",
+    "doc_id": "Amazon-2024-Annual-Report.pdf",
+    "page": 84,
+    "chunk_id": "Amazon-2024-Annual-Report.pdf_84_1"
+  },
+  {
+    "question": "**** What should the company's records accurately and fairly reflect?",
+    "answer": "**** transactions and dispositions of the assets of the company.",
+    "doc_id": "Amazon-2024-Annual-Report.pdf",
+    "page": 83,
+    "chunk_id": "Amazon-2024-Annual-Report.pdf_83_4"
+  },
+  {
+    "question": "What was the decrease in International segment net sales due to fluctuations in foreign exchange rates?",
+    "answer": "$1.8 billion.",
+    "doc_id": "Amazon-2024-Annual-Report.pdf",
+    "page": 44,
+    "chunk_id": "Amazon-2024-Annual-Report.pdf_44_1"
+  },
+  {
+    "question": "How many employees does the company have approximately?",
+    "answer": "1,556,000",
+    "doc_id": "Amazon-2024-Annual-Report.pdf",
+    "page": 16,
+    "chunk_id": "Amazon-2024-Annual-Report.pdf_16_6"
+  },
+  {
+    "question": "When was the Frame-Wilson v. Amazon.com, Inc. case filed?",
+    "answer": "March 2020.",
+    "doc_id": "Amazon-2024-Annual-Report.pdf",
+    "page": 71,
+    "chunk_id": "Amazon-2024-Annual-Report.pdf_71_6"
+  },
+  {
+    "question": "What were AWS net sales in 2023?",
+    "answer": "$90,757",
+    "doc_id": "Amazon-2024-Annual-Report.pdf",
+    "page": 78,
+    "chunk_id": "Amazon-2024-Annual-Report.pdf_78_1"
+  },
+  {
+    "question": "What may system interruptions and delays prevent the company from doing?",
+    "answer": "efficiently accepting or fulfilling orders or providing services to customers and third parties.",
+    "doc_id": "Amazon-2024-Annual-Report.pdf",
+    "page": 23,
+    "chunk_id": "Amazon-2024-Annual-Report.pdf_23_5"
+  },
+  {
+    "question": "**** Do we have long-term arrangements with most of our suppliers to guarantee availability of merchandise, content, components, or services?",
+    "answer": "",
+    "doc_id": "Amazon-2024-Annual-Report.pdf",
+    "page": 24,
+    "chunk_id": "Amazon-2024-Annual-Report.pdf_24_2"
+  },
+  {
+    "question": "Who was involved in assessing the technical merits of certain of the Company\u2019s tax positions?",
+    "answer": "Our international tax, transfer pricing, and research and development tax professionals.",
+    "doc_id": "Amazon-2024-Annual-Report.pdf",
+    "page": 47,
+    "chunk_id": "Amazon-2024-Annual-Report.pdf_47_2"
+  },
+  {
+    "question": "**** What could have a material adverse impact on operating results?",
+    "answer": "**** Outcomes of legal proceedings and claims.",
+    "doc_id": "Amazon-2024-Annual-Report.pdf",
+    "page": 22,
+    "chunk_id": "Amazon-2024-Annual-Report.pdf_22_0"
+  },
+  {
+    "question": "What were the shipping costs in 2023?",
+    "answer": "$89.5 billion",
+    "doc_id": "Amazon-2024-Annual-Report.pdf",
+    "page": 37,
+    "chunk_id": "Amazon-2024-Annual-Report.pdf_37_2"
+  },
+  {
+    "question": "**** How do consumers typically pay in the company's stores?",
+    "answer": "**** Credit cards.",
+    "doc_id": "Amazon-2024-Annual-Report.pdf",
+    "page": 32,
+    "chunk_id": "Amazon-2024-Annual-Report.pdf_32_7"
+  },
+  {
+    "question": "What was the U.S. Federal current income tax in 2023?",
+    "answer": "$ 8,652",
+    "doc_id": "Amazon-2024-Annual-Report.pdf",
+    "page": 75,
+    "chunk_id": "Amazon-2024-Annual-Report.pdf_75_0"
+  }
+]
