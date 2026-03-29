@@ -31,7 +31,7 @@
 
 ---
 #### Project🔬: Adaptive Document Intelligence System using Hybrid RAG
-<img src="Images/rag_flowchart.png" align="left" width="300" alt="RAG Pipeline">
+<img src="Images/RAG_flowchart.png" align="left" width="300" alt="RAG Pipeline">
 
 Built a production-grade document intelligence system using hybrid retrieval (BM25 + vector search), cross-encoder reranking, and LLM-based answer generation with citations. Implemented adaptive retry logic using LangGraph and integrated both embedding-based and RAGAS-based evaluation to ensure answer faithfulness and relevance.
 

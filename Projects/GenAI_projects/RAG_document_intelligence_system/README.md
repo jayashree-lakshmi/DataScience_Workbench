@@ -104,7 +104,7 @@ Retry (if needed)
    ↓
 Final Answer + Citations
 ```
-<img src="rag_flowchart.png">
+<img src="RAG_flowchart.png">
 ---
 
 ## ⚙️ Tech Stack
